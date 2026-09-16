@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>D&D Class & Subclass Quiz</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="sky" aria-hidden="true">
+  <div class="cloud cloud-a"></div>
+  <div class="cloud cloud-b"></div>
+  <div class="cloud cloud-c"></div>
+  <div class="cloud cloud-d"></div>
+  <div class="cloud cloud-e"></div>
+</div>
+
+<main class="app">
+  <section id="start-screen" class="screen active">
+    <div class="window title-window">
+      <div class="window-bar">D&D CLASS QUIZ</div>
+      <div class="window-body center">
+        <div class="pixel-sparkles">✦　✧　✦</div>
+        <h1>What Class &amp;<br>Subclass Are You?</h1>
+        <p class="lead">Answer simple YES or NO questions about the way you want to play.</p>
+        <div class="info-window">
+          <div><b>36 QUESTIONS</b><span>chosen randomly</span></div>
+          <div><b>12 PLAYSTYLES</b><span>damage, tanking, healing &amp; more</span></div>
+          <div><b>SUBCLASS MATCH</b><span>your final result gets specific</span></div>
+        </div>
+        <button id="start-btn" class="pixel-button primary">▶ START QUIZ</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="quiz-screen" class="screen">
+    <div class="quiz-layout">
+      <div class="window question-window">
+        <div class="window-bar"><span>D&D CLASS QUIZ</span><span id="progress-label"></span></div>
+        <div class="window-body">
+          <div id="question-category" class="category-label"></div>
+          <div class="question-mark">?</div>
+          <h2 id="question-text"></h2>
+          <div class="progress"><div id="progress-bar"></div></div>
+          <div id="answers" class="answers"></div>
+          <div class="quiz-controls">
+            <button id="back-btn" class="pixel-button secondary">◀ BACK</button>
+            <button id="next-btn" class="pixel-button primary" disabled>NEXT ▶</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="results-screen" class="screen">
+    <div class="window result-window">
+      <div class="window-bar">YOUR RESULT</div>
+      <div class="window-body">
+        <div class="result-intro">YOU SHOULD PLAY...</div>
+        <h2 id="result-class" class="result-class"></h2>
+        <div class="result-arrow">▼</div>
+        <h3 id="result-subclass" class="result-subclass"></h3>
+        <span id="custom-badge" class="badge hidden">CUSTOM SUBCLASS</span>
+        <p id="result-description" class="lead result-description"></p>
+
+        <div class="result-section">
+          <h4>YOUR STRONGEST PLAYSTYLES</h4>
+          <div id="trait-breakdown"></div>
+        </div>
+
+        <div class="result-section">
+          <h4>WHY?</h4>
+          <ul id="result-reasons"></ul>
+        </div>
+
+        <div class="result-section">
+          <h4>OTHER CLASS MATCHES</h4>
+          <div id="class-breakdown"></div>
+        </div>
+
+        <div class="result-section">
+          <h4>OTHER SUBCLASS MATCHES</h4>
+          <div id="subclass-matches"></div>
+        </div>
+
+        <button id="restart-btn" class="pixel-button primary">↻ TAKE IT AGAIN</button>
+      </div>
+    </div>
+  </section>
+</main>
+<script src="script.js"></script>
+</body>
+</html>
