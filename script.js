@@ -423,7 +423,7 @@ function buildSubclassProfile(cls,sub){
     aoe:["evocation","wildfire","drakes","fangs","storm","soundboost","four elements","light","tempest","artillerist","fiend","undead","sun soul","draconic"],
     control:["enchantment","illusion","graviturgy","chronurgy","fathomless","great old one","archfey","aberrant mind","open hand","ascendant dragon","trickery","entropy","cobalt soul","conjuration","fey"],
     burst:["assassin","vengeance","champion","samurai","gloom stalker","arcane archer","evocation","draconic","wild magic","storm sorcery","fiend","hexblade","bladesinging","titan","lethality"],
-    sustained:["champion","hunter","battle master","battlerager","berserker","beast","spores","land","bladesinging","swords","valor","thief","swarmkeeper","kensei","war magic","artillerist"],
+    sustained:["champion","hunter","battle master","battlerager","berserker","beast","spores","land","bladesinging","swords","valor","thief","swarmkeeper","kensei","war magic","artillerist","pestilence"],
     utility:["lore","mastermind","inquisitive","arcane trickster","divination","scribes","conjuration","transmutation","researcher","alchemist","knowledge","order","cobalt soul","creation","echo knight","clockwork","fey wanderer","horizon walker","genie"],
     mobility:["swashbuckler","scout","shadow","echo knight","horizon walker","fey wanderer","drunken master","open sea","gloom stalker","astral self","ascendant dragon","thief"],
     defense:["abjuration","armorer","rune knight","psi warrior","redemption","devotion","crown","stability","twilight","forge","soul shield","clockwork","ancestral guardian","totem warrior","kensei"],
